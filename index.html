@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="design.css">
+	</head>
+<body>
+<p text-align="centre"><h1 >SELECT ANY BUTTON TO PERFORM FILE I/O OPERATIONS </h1> </p>
+	<div class="container">
+		<form action="file_handling.php" method="post" target="frame1" id="style">
+		
+			<nav class="nav">
+			<ul>
+				<fieldset>
+					<button name="create_file" type="submit" value="create" >create </button>
+			
+					<button name="open_file" type="submit" value="open" >open </button>
+
+					<button name="read_file" type="submit" value="read" >read </button>
+				</fieldset>
+				<fieldset>
+					<legend align="centre" border="1">WRITE HERE</legend>
+					<INPUT type = 'Text' placeholder='first.. write some text here' name = 'data' required></INPUT>
+					<li><button name="write_file" type="submit" value="write">write </button></li>
+				</fieldset>
+				<fieldset>
+					<legend align="centre">APPEND HERE</legend>
+					<INPUT type = 'Text' placeholder='first.. append some text here' name = 'append' required></INPUT>
+					<li><button name="append_file" type="submit" value="append">append </button></li>
+				</fieldset>
+				<fieldset>
+					<button name="close_file" type="submit" value="close">close </button>
+
+					<button name="delete_file" type="submit" value="delete">delete </button>
+				</fieldset>
+			</ul>
+			</nav>
+		
+		</form>
+	</div>
+<p text-align="centre"><h1>GENERATED RESULT </h1></p> 
+	<iframe src="file_handling.php" name="frame1" width="100%" height="60%" frameborder="1">
+  		<p>Your browser does not support iframes.</p>
+	</iframe>
+
+</body>
+</html>

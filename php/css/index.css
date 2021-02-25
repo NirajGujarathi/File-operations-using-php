@@ -1,0 +1,40 @@
+html,body
+{
+	width:100%;
+	height:100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+ul
+{
+	list-style:none
+}
+
+a
+{
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		border-radius:0px !important;
+		width:200px;
+		height:35px;
+		margin:20px;
+		border-color:#C02C39 !important;
+		font-family: 'Roboto', sans-serif !important;	
+		color:#C02C39 !important;
+}
+
+a:hover
+{
+	font-weight:bold;
+	background:white !important;
+	border-bottom:solid 2px #C02C39 !important;
+	
+}
+
+.main-container
+{
+	position:relative;
+	top:30%;
+	left:37%;	
+}
